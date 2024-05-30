@@ -282,6 +282,7 @@ See https://s-c.sh/2BAXzed for more info.`),window[Lf]+=1);var aE,iE,oE,uE;funct
   `,ButtonWrapper:ht.div`
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 0.8rem;
     width: 100%;
     right: 0;
   `,AddToCartIcon:ht(TA)`
@@ -289,9 +290,9 @@ See https://s-c.sh/2BAXzed for more info.`),window[Lf]+=1);var aE,iE,oE,uE;funct
   `,DeleteFromCartIcon:ht(xA)`
     cursor: pointer;
   `},pE=({placeholder:u,options:c,...v})=>we.jsxDEV(zA.Select,{...v,children:[u&&we.jsxDEV("option",{value:"",disabled:!0,children:u},void 0,!1,{fileName:"/Users/hanyoungpark/Desktop/woowa/react-shopping-products/src/components/Select.tsx",lineNumber:17,columnNumber:9},void 0),c.map(({value:m,label:C})=>we.jsxDEV("option",{value:m,children:C},m,!1,{fileName:"/Users/hanyoungpark/Desktop/woowa/react-shopping-products/src/components/Select.tsx",lineNumber:23,columnNumber:11},void 0))]},void 0,!0,{fileName:"/Users/hanyoungpark/Desktop/woowa/react-shopping-products/src/components/Select.tsx",lineNumber:15,columnNumber:5},void 0),zA={Select:ht.select`
-    width: 35%;
-    height: 40px;
-    padding: 10px 7px;
+    width: 30%;
+
+    padding: 8px 4px;
     border: 0.1rem solid #acacac;
     border-radius: 0.8rem;
     color: #000000;
@@ -506,7 +507,7 @@ to {
     flex-wrap: wrap;
     justify-content: space-between;
     flex: 1 0 100%;
-    gap: 2rem 1.6rem;
+    gap: 2.6rem 1.6rem;
     margin-top: 1.1rem;
   `,Spinner:ht.div`
     animation: ${ZA} 1s linear infinite;
