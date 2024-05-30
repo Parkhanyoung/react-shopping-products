@@ -118,7 +118,7 @@ const S = {
     flex-wrap: wrap;
     justify-content: space-between;
     flex: 1 0 100%;
-    gap: 2rem 1.6rem;
+    gap: 2.6rem 1.6rem;
     margin-top: 1.1rem;
   `,
 

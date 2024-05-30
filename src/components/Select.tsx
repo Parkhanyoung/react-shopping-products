@@ -33,9 +33,9 @@ export default Select;
 
 const S = {
   Select: styled.select<React.SelectHTMLAttributes<HTMLSelectElement>>`
-    width: 35%;
-    height: 40px;
-    padding: 10px 7px;
+    width: 30%;
+
+    padding: 8px 4px;
     border: 0.1rem solid #acacac;
     border-radius: 0.8rem;
     color: #000000;

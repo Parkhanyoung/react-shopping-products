@@ -102,6 +102,7 @@ const S = {
   ButtonWrapper: styled.div`
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 0.8rem;
     width: 100%;
     right: 0;
   `,
