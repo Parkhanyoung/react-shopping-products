@@ -1,4 +1,5 @@
 import { SyntheticEvent } from "react";
+import defaultFallbackImage from "@assets/defaultFallback.png";
 
 interface ImageWithFallbackProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   src: string;
@@ -7,7 +8,7 @@ interface ImageWithFallbackProps extends React.ImgHTMLAttributes<HTMLImageElemen
 
 const ImageWithFallback = ({
   src,
-  fallbackSrc = DEFAULT_FALLBACK_IMAGE,
+  fallbackSrc = defaultFallbackImage,
   ...attributes
 }: ImageWithFallbackProps) => {
   const handleError = (event: SyntheticEvent<HTMLImageElement>) => {
@@ -19,5 +20,3 @@ const ImageWithFallback = ({
 };
 
 export default ImageWithFallback;
-
-const DEFAULT_FALLBACK_IMAGE = "/src/assets/defaultFallback.png";
