@@ -38,7 +38,7 @@
       "@types/*": ["types/*"],
       "@utils/*": ["utils/*"]
     },
-    "types": ["vite-plugin-svgr/client", "vite/client", "jest"]
+    "types": ["vite/client", "jest"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
